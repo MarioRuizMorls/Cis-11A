@@ -7,7 +7,7 @@
         JSR     BUBBLE_SORT     ; Sort the numbers
         JSR     DISPLAY         ; Display the sorted numbers
         HALT
-
+	
 ; Subroutine: INIT
 ; Description: Initialize the stack pointer and other registers
 INIT    LD      R6, STACK_PTR_INIT ; Load stack pointer initial value
